@@ -18,7 +18,7 @@ Este es un proyecto de tarjeta de blog minimalista creado con **HTML** y **CSS**
 
 ## Vista Previa del Proyecto
 
-![Vista Previa del Proyecto](img/cactus_img.jpg)
+![Vista Previa del Proyecto](img/vista.png.jpg)
 
 ## Cómo Ejecutarlo Localmente
 
