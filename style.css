@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+:root {
+  --color-bg: #fafaf9;
+  --color-white: #ffffff;
+  --color-accent-light: #e6d6fc;
+  --color-accent-dark: #883ae1;
+  --color-text-dark: #6c727f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 368px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 116px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+section img {
+  width: 336px;
+  margin: 16px;
+  border-radius: 10px;
+}
+
+article {
+  width: 336px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--color-accent-light);
+}
+
+article span {
+  font-size: 10px;
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
+  padding: 6px 16px;
+  border-radius: 30px;
+}
+
+article h1 {
+  font-size: 18px;
+  margin: 16px 0 6px;
+}
+
+article p {
+  font-size: 14px;
+  color: var(--color-text-dark);
+  padding-bottom: 20px;
+}
+
+section footer {
+  font-size: 12px;
+  color: var(--color-text-dark);
+  margin: 20px;
+}
